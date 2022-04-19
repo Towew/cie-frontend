@@ -115,4 +115,10 @@ body {
             border-radius: 5px;
             border: 1px solid #F74D4D;
             font-weight: 400;
-        }
+}
+
+@media screen and (min-width: 750px) {
+    .container {
+      flex-wrap: wrap;
+    }
+  }
