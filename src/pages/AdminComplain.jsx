@@ -23,7 +23,7 @@ function AdminComplain() {
 
 
     useEffect(() => {
-            socket = io(process.env.REACT_APP_SERVER_URL, {
+            socket = io("https://dumbmerch-b32-server.herokuapp.com/", {
                 auth: {
                     token: localStorage.getItem('token'),
                 },
