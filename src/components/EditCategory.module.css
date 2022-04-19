@@ -1,0 +1,61 @@
+.CategoryC nav li:nth-of-type(3) a {
+    color: #F74D4D;
+}
+
+.containerCategory {
+    color: white;
+}
+
+    .containerCategory h1 {
+        width: 1272px;
+        margin-top: 100px;
+        margin-left: 75px;
+        height: 50px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+    }
+
+    .containerCategory .mb3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerCategory .category {
+        width: 90%;
+        height: 50px;
+        background: rgba(210, 210, 210, 0.25);
+        border: 2px solid #BCBCBC;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        color: white;
+    }
+
+    .containerCategory .category::placeholder {
+        color: #746b6b;
+    }
+
+    .containerCategory .btnSave {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        margin-left: 75px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background: green;
+    }
+
+    nav ul li:nth-of-type(3):hover {
+        color: #F74D4D;
+    }

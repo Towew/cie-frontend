@@ -1,0 +1,163 @@
+.UserComplainC nav li:nth-of-type(1) a {
+    color: #F74D4D;
+}
+
+.btnOpen {
+    margin-bottom: 50px;
+}
+
+.offcanvas {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+
+.offcanvasHeader img {
+    width: 70px;
+    height: 70px;
+}
+
+.offcanvasBody img {
+    margin: 20px 0px 20px 0px;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    width: 1110px;
+    height: 500px;  
+}
+
+.leftSide {
+    flex: 1;
+    height: 150px;
+    margin-bottom: 200px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 3;
+}
+
+.rightSide img {
+    width: 339px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.rightSide input {
+    width: 925px;
+    height: 59px;
+    background-color: rgba(171, 171, 171, 0.15);
+    padding: 0px 30px 0px 30px;
+    border: 1px solid rgba(171, 171, 171, 0.15);
+}
+
+/* ====offcanvas=== */
+
+.flxRow {
+    display: flex;
+    align-items: center;
+}
+
+.flxRow img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.flxRow .flxCol p {
+    margin-bottom: 5px;
+    font-size: 14px;
+} 
+
+.flxRow .flxCol p:nth-of-type(2) {
+    color: #ABABAB;
+}
+
+/* ===Body Chat==== */
+
+.auCompRight {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.auCompRight .flxRow {
+    margin-bottom: 30px;
+}
+
+.auCompRight .flxRow:nth-of-type(1) {
+    justify-content: flex-end;
+}
+
+.auCompRight input {
+    width: 925px;
+    height: 59px;
+    background-color: rgba(171, 171, 171, 0.15);
+    padding: 0px 30px 0px 30px;
+    border: 1px solid rgba(171, 171, 171, 0.15);
+}
+
+.bubbleLeft {
+    position: relative;
+    background: #575757;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-left: 20px;
+}
+.bubbleLeft:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #575757;
+    border-width: 12px 21px 12px 0;
+    top: 50%;
+    left: -21px;
+    margin-top: -12px;
+}
+
+
+.bubbleRight {
+    position: relative;
+    background: #575757;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-right: 20px;
+}
+.bubbleRight:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #575757;
+    border-width: 12px 0 12px 21px;
+    top: 50%;
+    right: -21px;
+    margin-top: -12px;
+}

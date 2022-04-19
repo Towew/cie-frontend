@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/Fonts/Avenir/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url("./assets/Fonts/Avenir/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: 400;
+    src: url("./assets/Fonts/Avenir/Metropolis-Medium.otf") format("opentype");
+}
+
+body {
+    background-color: #0b0b0b;
+    font-family: Avenir;
+}
+
+.ProfileC nav li:nth-of-type(2) a{
+    color: #F74D4D;
+}
+
+h2 {
+    color:#F74D4D;
+}
+
+h3 {
+    color: #F74D4D;
+}
+
+.mainContainer {
+    display: flex;
+    margin: 20px 50px 0px 50px;
+}
+
+.leftSide {
+    display: flex;
+}
+
+.leftSideLeft {
+    flex: 1;
+}
+
+.leftSideLeft img{
+    width: 300px;
+    height: 400px;
+}
+
+.leftSideRight {
+    flex: 1 ;
+    width: 338px;
+    height: 435px;
+    margin: 50px 70px 0px 15px;
+}
+
+.leftSideRight div h3 {
+    font-size: 15px;
+}
+
+.leftSideRight div p {
+    font-size: 15px;
+    color: white;
+}
+
+
+/* My Transaction  */
+
+.transactionCont {
+    display: flex;
+    align-items: center;
+    width: 490px;
+    height: 150px;
+    background-color: #303030;
+    ;
+}
+
+.trImg {
+    flex: 1;
+    text-align: center;
+}
+
+.trImg img {
+    width: 80px;
+    height: 120px;
+}
+
+.trDetail {
+    flex: 2;
+}
+
+.trDetail h3 {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.trDetail2 {
+    font-size: 9px;
+    margin-top: 2px;
+    color: #F74D4D;
+    font-size: 100;
+}
+
+.trDetail2 span {
+    font-weight: bold;
+}
+
+.trDetail3 {
+    font-size: 10px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.trDetail4 {
+    font-size: 10px;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.trLogo {
+    flex: 1;
+}
+
+.trLogoImg {
+    width: 70px;
+    height: 70px;
+}
+
+.trLogoImg span {
+    color: white;
+}
+
+nav ul li:hover {
+    color: #F74D4D;
+}
+
+.statusTransactionsuccess {
+    background-color: #268d37b0;
+  }
+  
+  .statusTransactionpending {
+    background-color: #8b8d265b;
+  }
+  
+  .statusTransactionfailed {
+    background-color: #8d26265b;
+  }

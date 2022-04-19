@@ -1,0 +1,17 @@
+.homepagePageContainer {
+    margin: 30px 30px;
+}
+
+h5 {
+    margin-bottom: 30px;
+    color: #F74D4D;
+}
+
+.homepageCardContainer {
+    display: flex;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}

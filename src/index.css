@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.status-transaction-success {
+  background-color: #268d37b0;
+}
+
+.status-transaction-pending {
+  background-color: #8b8d265b;
+}
+
+.status-transaction-failed {
+  background-color: #8d26265b;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}

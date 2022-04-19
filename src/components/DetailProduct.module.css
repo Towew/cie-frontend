@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/Fonts/Avenir/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url("./assets/Fonts/Avenir/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: 400;
+    src: url("./assets/Fonts/Avenir/Metropolis-Medium.otf") format("opentype");
+}
+
+body {
+    font-family: Avenir;
+}
+
+.detailProductItemContainer {
+    margin: 30px 50px 50px 150px;
+    display: flex;
+    width: 1035px;
+    height: 555px;
+}
+
+.detailProductLeft img {
+    width: 400px;
+    height: 500px;
+}
+
+.detailProductRight {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 550px;
+}
+
+.detailProductRight h2 {
+    font-size: 48px;
+}
+
+.detailProductRight p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.h6price {
+    text-align: end;
+    font-size: 24px;
+    color: #F74D4D;
+}
+
+.detailProductRight button {
+    width: 544px;
+    height: 40px;
+    background: #F74D4D;
+    border-radius: 5px;
+    margin-top: 30px;
+    color:#fff;
+}

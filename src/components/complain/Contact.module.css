@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  .contact img {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+  }
+  
+  .contact:hover {
+    background-color: #212121;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact:active {
+    background-color: #3d3d3d;
+    transition: 0.3s;
+  }
+  
+  .contactActive {
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+.imgContact {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.textContact {
+    font-size: 14px;
+}
+
+.textContact li:nth-of-type(1){
+    color: #F74D4D;
+    margin-bottom: 5px;
+}
+  
+.textContactChat {
+    color: #ababab;
+}

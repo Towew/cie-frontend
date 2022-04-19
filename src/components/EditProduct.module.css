@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Avenir;
+    src: url("./assets/Fonts/Avenir/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url("./assets/Fonts/Avenir/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: 400;
+    src: url("./assets/Fonts/Avenir/Metropolis-Medium.otf") format("opentype");
+}
+
+body {
+    background-color: #0b0b0b;
+    font-family: Avenir;
+}
+
+.ProductC nav li:nth-of-type(4) a {
+    color: #F74D4D;
+}
+
+.containerProduct {
+    color: white;
+}
+
+    .containerProduct h1 {
+        width: 1272px;
+        margin-top: 100px;
+        margin-left: 75px;
+        height: 50px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+    }
+
+    .containerProduct .btnUpload {
+        width: 10%;
+        height: 50px;
+        margin-left: 73px;
+        margin-right: 10px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        color: #FFFFFF;
+        background: #F74D4D;
+    }
+
+    .containerProduct .fg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerProduct input::placeholder {
+        color: #FFFFFF;
+    }
+
+    .containerProduct .textarea {
+        width: 90%;
+        height: 80px;
+        background: rgba(210, 210, 210, 0.25);
+        border: 2px solid #BCBCBC;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        resize: none;
+        height: 130px;
+        color: #FFFFFF;
+    }
+
+    .containerProduct textarea::placeholder{
+        color: #FFFFFF;
+    }
+
+    .containerProduct .category {
+        width: 90%;
+        height: 50px;
+        background: rgba(210, 210, 210, 0.25);
+        border: 2px solid #BCBCBC;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        color: #FFFFFF;
+    }
+
+    .containerProduct .btnSave {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        margin-left: 75px;
+        font-family: 'Avenir';
+        margin-bottom: 90px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        background: #56C05A;
+    }
+
+    .imgGroup {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+
+    .imgGroup label {
+        margin-right: 10px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 25px;
+        border-radius: 5px;
+        padding: 10px;
+        color: #FFFFFF;
+        background: #F74D4D;
+    }
+
+    .cardFormInput {
+        background: rgba(210, 210, 210, 0.25);
+        border: 2px solid #bcbcbc;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 90%;
+        margin-left: 65px;
+        margin-bottom: 30px;
+        padding: 0px 5px 30px 5px;
+      }

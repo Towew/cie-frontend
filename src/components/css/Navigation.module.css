@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Avenir;
+    src: url("../assets/Fonts/Avenir/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: bold;
+    src: url("../assets/Fonts/Avenir/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir;
+    font-weight: 400;
+    src: url("../assets/Fonts/Avenir/Metropolis-Medium.otf") format("opentype");
+}
+
+body {
+    background-color: #0b0b0b;
+    font-family: Avenir;
+}
+
+/* container Navbar Store */
+
+  .navLink {
+    color: white !important;
+    font-family: Avenir !important;
+  }
+
+  .navLink:hover {
+    color: #F74D4D !important;
+  }
+
+  .navLinkActive {
+    color: #F74D4D !important;
+  }
+
+  .togller{
+    background-color: #F74D4D !important;
+  }
+  
